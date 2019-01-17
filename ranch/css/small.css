@@ -1,15 +1,16 @@
 * {-moz-box-sizeing: border-box;
--webkit-box-sizing: border-box; box-sizing: border-box}
+-webkit-box-sizing: border-box; box-sizing: 
+border-box;}
 
-/*body rules here */
+/* body rules here */
 body {
-    font-family: Verdana;
-    font-size: : 16px;
+    font-family: Verdana;   /* designed to read on mobile devices*/
+    font-size: 16px;        /* default size*/
 }
-/* header rules here */
+/* header rules here - work way down*/
 header{
     background-color: #17a8e4;
-    padding: 1rem 2%;
+    padding: 1rem 2%;       /* inside of box*/
 }
 /* header h1 is a child of header*/
 header h1{
@@ -21,12 +22,12 @@ header h2{
 }
 /* navigation rules here*/
 nav {background-color: #111;}
-nav ul {margin: 0 padding: 0;}
+nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
 nav li.active{background-color: #333;}
 
 nav a {display: block;
-    padding: .8rem 0; /* 44 min height*/
+    padding: .8rem 0;  /* 44 min height*/
     color: #eee;
     text-align: center;
     text-decoration: none;
@@ -55,7 +56,7 @@ footer{
     text-align: center;
     padding: 1rem 2%;
     background-color: #19a8e4;
-    
+
 }
 
 .clearfix:after{
