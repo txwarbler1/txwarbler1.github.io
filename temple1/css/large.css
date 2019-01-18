@@ -9,7 +9,7 @@ nav a {padding: .5rem 1rem;}
 main figure {width: 50%;}
 
 div.news{
-    column-count: 3;
+    column-count: 4;
 }
 
 } /* end of media query*/

@@ -9,7 +9,7 @@ body {
 }
 /* header rules here - work way down*/
 header{
-    background-color: #17a8e4;
+    background-color: #dbe3f4;
     padding: 1rem 2%;       /* inside of box*/
 }
 /* header h1 is a child of header*/
@@ -21,7 +21,7 @@ header h2{
     margin: 0;
 }
 /* navigation rules here*/
-nav {background-color: #111;}
+nav {background-color: #012778;}
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
 nav li.active{background-color: #333;}
@@ -34,8 +34,6 @@ nav a {display: block;
 }
 nav a:hover{background-color: #444;}
 
-
-
 /* main*/
 main{
     padding: 1rem 2%;
@@ -43,7 +41,7 @@ main{
 }
 
 main h1{
-    color: #17a8e4;
+    color: #012778;
 }
 main figure img{width: 100%;} 
 main figure{
@@ -52,10 +50,22 @@ main figure{
 }
 main figcaption{text-align: center;font-size: .8rem;}
 
+/* main h2  child of main*/
+main h2{
+    color: gray;
+}
+main p{
+    margin: 0 0 10px 0;
+}
+div.news{
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #dddddd;
+}
 footer{
     text-align: center;
     padding: 1rem 2%;
-    background-color: #19a8e4;
+    background-color: #dbe3f4;
 
 }
 
