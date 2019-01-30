@@ -17,7 +17,7 @@ header {
     background-color: rgb(255, 255, 255);
 }
 header img {float: left; margin-right:10px; width:50px }
-header h1 {margin: 0; font-size:1.3rem;}
+header h1 {margin: 0; font-size:1.3rem;color: bisque}
 header h2 {margin: 0; font-weight: normal; font-size:1rem;}
 
 /*----------- NAVIGATION --------------*/
@@ -26,7 +26,7 @@ nav {
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
 }
 
@@ -50,15 +50,26 @@ nav ul li.active a {
 }
 /*----------- MAIN --------------*/
 main {
-    padding: 0 2%;
-    min-height: 10rem;
+    padding: 1% 2%;
+    min-height: 5rem;
 }
 main h1{
+    color: cadetblue;
 
 }
 main h2{
-    padding: 0 0 0 0;
     margin: 0 0 0 0;
+}
+main figure.photo{
+    margin 0 0 0 2%;
+    float right: ;
+}
+main figure.phot img{
+    width: 100%;
+}
+main figure.photo figcaption{
+    text-align: center;
+    font-size: .50rem;
 }
 main p {
     padding: 0 0 0 0;
@@ -69,6 +80,7 @@ main p {
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
+    color: coral;
     padding: .5rem 2%;
     text-align: center;
 }
@@ -77,7 +89,7 @@ footer {
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+content: "";
+display: table;
+clear: both;
 }
