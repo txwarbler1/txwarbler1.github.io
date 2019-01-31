@@ -13,11 +13,11 @@ body {
 
 /*----------- HEADER --------------*/
 header {
-    padding: .5rem 2%;
+    padding: .5rem;
     background-color: rgb(255, 255, 255);
 }
 header img {float: left; margin-right:10px; width:50px }
-header h1 {margin: 0; font-size:1.3rem;color: bisque}
+header h1 {margin: 0; font-size:1.3rem;color: #333}
 header h2 {margin: 0; font-weight: normal; font-size:1rem;}
 
 /*----------- NAVIGATION --------------*/
@@ -45,7 +45,7 @@ nav ul li a:hover {
     color: #333;
 }
 nav ul li.active a {
-    background-color: #000;
+    background-color: #444;
     color: #fff;
 }
 /*----------- MAIN --------------*/
@@ -53,8 +53,10 @@ main {
     padding: 1% 2%;
     min-height: 5rem;
 }
+main figure img {float: right; 
+}
 main h1{
-    color: cadetblue;
+    color: 012778;
 
 }
 main h2{
@@ -62,7 +64,7 @@ main h2{
 }
 main figure.photo{
     margin 0 0 0 2%;
-    float right: ;
+    float: right;
 }
 main figure.phot img{
     width: 100%;
@@ -79,8 +81,8 @@ main p {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
-    color: coral;
+    background-color: #012778;
+    color: #dddddd;
     padding: .5rem 2%;
     text-align: center;
 }
