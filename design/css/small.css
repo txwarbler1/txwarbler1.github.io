@@ -13,12 +13,16 @@ body {
 
 /*----------- HEADER --------------*/
 header {
-    padding: .5rem;
+    padding: .5rem 2%;
     background-color: rgb(255, 255, 255);
 }
-header img {float: left; margin-right:10px; width:50px }
-header h1 {margin: 0; font-size:1.rem;color: #333}
+
+header h1 {margin: 0; font-size:1.3rem; color: #333}
 header h2 {margin: 0; font-weight: normal; font-size:1rem;}
+header img {
+    float: left; 
+    margin: 0 2% 0 0; 
+    width:50px;}
 
 /*----------- NAVIGATION --------------*/
 nav {
@@ -50,29 +54,25 @@ nav ul li.active a {
 }
 /*----------- MAIN --------------*/
 main {
-    padding: 1% 2%;
-    min-height: 5rem;
+    padding: 0% 2%;
+    min-height: 10rem;
 }
-main figure img {float: right; 
+main figure.proximity{
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
 }
+main figure.proximity img{
+    width: 100%;
+}
+main figure.proximity figcaption { text-align: center; font-size: .75rem;}
 main h1{
     color: 012778;
-
 }
 main h2{
     margin: 0 0 0 0;
 }
-main figure.photo{
-    margin:0 0 0 2%;
-    float: right;
-}
-main figure.phot img{
-    width: 100%;
-}
-main figure.photo figcaption{
-    text-align: center;
-    font-size: .50rem;
-}
+
 main p {
     padding: 0 0 0 0;
     margin: 0 0 2% 0;
